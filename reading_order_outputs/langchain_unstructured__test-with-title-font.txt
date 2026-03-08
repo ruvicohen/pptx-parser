@@ -1,0 +1,30 @@
+Reading Order Report — Unstructured
+Source file: test-with-title-font.pptx
+Library: unstructured (partition_pptx)
+Order semantics: Elements in the order unstructured's partition_pptx returns them.
+  This is the library's own parsing order. Unstructured may reorder elements
+  (e.g., promoting titles). No position/bbox data is exposed by this library.
+================================================================================
+
+--- Slide 1 ---
+
+  [Slide 1] Element #0 | Type: Text | Depth: 0
+    Text: 222222
+
+  [Slide 1] Element #1 | Type: Text | Depth: 0
+    Text: 333
+
+  [Slide 1] Element #2 | Type: Title | Depth: 1
+    Text: first
+
+  [Slide 1] Element #3 | Type: Text | Depth: 0
+    Parent ID: a327252725ddda97add08b6713385241
+    Text: 66666
+
+  [Slide 1] Element #4 | Type: Text | Depth: 0
+    Parent ID: a327252725ddda97add08b6713385241
+    Text: 55555
+
+  [Slide 1] Element #5 | Type: Text | Depth: 0
+    Parent ID: a327252725ddda97add08b6713385241
+    Text: 4444444

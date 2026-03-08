@@ -1,0 +1,27 @@
+Reading Order Report — python-pptx
+Source file: test-with-groups.pptx
+Library: python-pptx (lightweight iteration)
+Order semantics: Raw shape-tree iteration order (XML spTree z-order).
+================================================================================
+
+--- Slide 1 (layout: Blank) ---
+
+[Slide 1] Element #0 | Name: TextBox 4 | Type: TEXT_BOX (17) | pos=(8610600, 762000) size=(535724x369332) EMU
+  Text: 333
+
+[Slide 1] Element #1 | Name: TextBox 5 | Type: TEXT_BOX (17) | pos=(1524000, 5029200) size=(1003801x369332) EMU
+  Text: 4444444
+
+[Slide 1] Element #2 | Name: Group 3 | Type: GROUP (6) | pos=(762000, 457200) size=(7170563x3874532) EMU
+  --- Group child #0 ---
+    [Slide 1] Element #0 | Name: TextBox 1 | Type: TEXT_BOX (17) | pos=(1752600, 1143000) size=(548420x369332) EMU
+      Text: first
+  --- Group child #1 ---
+    [Slide 1] Element #1 | Name: TextBox 2 | Type: TEXT_BOX (17) | pos=(762000, 457200) size=(886781x369332) EMU
+      Text: 222222
+  --- Group child #2 ---
+    [Slide 1] Element #2 | Name: TextBox 6 | Type: TEXT_BOX (17) | pos=(7162800, 3962400) size=(769763x369332) EMU
+      Text: 55555
+
+[Slide 1] Element #3 | Name: TextBox 7 | Type: TEXT_BOX (17) | pos=(3276600, 2286000) size=(769763x369332) EMU
+  Text: 66666

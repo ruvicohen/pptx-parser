@@ -1,0 +1,88 @@
+{
+  "slides": [
+    {
+      "slide_index": 0,
+      "layout_name": "Blank",
+      "shapes": [
+        {
+          "type": "TEXTBOX",
+          "left": 8610600,
+          "top": 762000,
+          "width": 535724,
+          "height": 369332,
+          "text_content": [
+            {
+              "text": "333",
+              "level": 0
+            }
+          ]
+        },
+        {
+          "type": "TEXTBOX",
+          "left": 7162800,
+          "top": 3962400,
+          "width": 769763,
+          "height": 369332,
+          "text_content": [
+            {
+              "text": "55555",
+              "level": 0
+            }
+          ]
+        },
+        {
+          "type": "TEXTBOX",
+          "left": 762000,
+          "top": 457200,
+          "width": 886781,
+          "height": 369332,
+          "text_content": [
+            {
+              "text": "222222",
+              "level": 0
+            }
+          ]
+        },
+        {
+          "type": "TEXTBOX",
+          "left": 3276600,
+          "top": 2286000,
+          "width": 769763,
+          "height": 369332,
+          "text_content": [
+            {
+              "text": "66666",
+              "level": 0
+            }
+          ]
+        },
+        {
+          "type": "TEXTBOX",
+          "left": 1524000,
+          "top": 5029200,
+          "width": 1003801,
+          "height": 369332,
+          "text_content": [
+            {
+              "text": "4444444",
+              "level": 0
+            }
+          ]
+        },
+        {
+          "type": "TEXTBOX",
+          "left": 1752600,
+          "top": 1143000,
+          "width": 548420,
+          "height": 369332,
+          "text_content": [
+            {
+              "text": "first",
+              "level": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

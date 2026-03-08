@@ -1,0 +1,8 @@
+TextBox 1: [TEXT] first
+TextBox 2: [TEXT] 222222
+TextBox 4: [TEXT] 333
+TextBox 5: [TEXT] 4444444
+TextBox 6: [TEXT] 55555
+TextBox 7: [TEXT] 66666
+Graphic 8: 
+Graphic 10: 

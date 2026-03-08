@@ -1,0 +1,236 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.9.0",
+  "name": "test-with-groups",
+  "origin": {
+    "mimetype": "application/vnd.ms-powerpoint",
+    "binary_hash": 3798990625401343265,
+    "filename": "test-with-groups.pptx"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "content_layer": "furniture",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/groups/0"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/0"
+        },
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        }
+      ],
+      "content_layer": "body",
+      "name": "slide-0",
+      "label": "chapter"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 8610600.0,
+            "t": 1131332.0,
+            "r": 9146324.0,
+            "b": 762000.0,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "333",
+      "text": "333"
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 1524000.0,
+            "t": 5398532.0,
+            "r": 2527801.0,
+            "b": 5029200.0,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "4444444",
+      "text": "4444444"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 1752600.0,
+            "t": 1512332.0,
+            "r": 2301020.0,
+            "b": 1143000.0,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "first",
+      "text": "first"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 762000.0,
+            "t": 826532.0,
+            "r": 1648781.0,
+            "b": 457200.0,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "222222",
+      "text": "222222"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 7162800.0,
+            "t": 4331732.0,
+            "r": 7932563.0,
+            "b": 3962400.0,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "55555",
+      "text": "55555"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "label": "paragraph",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 3276600.0,
+            "t": 2655332.0,
+            "r": 4046363.0,
+            "b": 2286000.0,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        }
+      ],
+      "orig": "66666",
+      "text": "66666"
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 9144000.0,
+        "height": 6858000.0
+      },
+      "page_no": 1
+    }
+  }
+}

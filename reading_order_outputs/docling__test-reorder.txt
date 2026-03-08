@@ -1,0 +1,34 @@
+Reading Order Report — Docling
+Source file: test-reorder.pptx
+Library: docling (DocumentConverter)
+Order semantics: Docling's inferred reading order via layout analysis and
+  reading-order model. This is a DERIVED order, not raw XML element order.
+  Docling groups content into semantic blocks and reorders based on layout.
+================================================================================
+[Group] Label: chapter | Name: slide-0 | Ref: #/groups/0
+
+--- Slide 1 ---
+
+  [Slide 1] Element #0 | Label: paragraph | Ref: #/texts/0
+    Position: bbox=(8610600.0, 1131332.0, 9146324.0, 762000.0) origin=BOTTOMLEFT
+    Text: 333
+
+  [Slide 1] Element #1 | Label: paragraph | Ref: #/texts/1
+    Position: bbox=(7162800.0, 4331732.0, 7932563.0, 3962400.0) origin=BOTTOMLEFT
+    Text: 55555
+
+  [Slide 1] Element #2 | Label: paragraph | Ref: #/texts/2
+    Position: bbox=(762000.0, 826532.0, 1648781.0, 457200.0) origin=BOTTOMLEFT
+    Text: 222222
+
+  [Slide 1] Element #3 | Label: paragraph | Ref: #/texts/3
+    Position: bbox=(3276600.0, 2655332.0, 4046363.0, 2286000.0) origin=BOTTOMLEFT
+    Text: 66666
+
+  [Slide 1] Element #4 | Label: paragraph | Ref: #/texts/4
+    Position: bbox=(1524000.0, 5398532.0, 2527801.0, 5029200.0) origin=BOTTOMLEFT
+    Text: 4444444
+
+  [Slide 1] Element #5 | Label: paragraph | Ref: #/texts/5
+    Position: bbox=(1752600.0, 1512332.0, 2301020.0, 1143000.0) origin=BOTTOMLEFT
+    Text: first
